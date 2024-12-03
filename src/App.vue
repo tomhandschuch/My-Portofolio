@@ -1,12 +1,25 @@
 <template>
   <div class="min-h-screen bg-gray-100">
+    <!-- Header mit Navigation -->
     <Header />
+    
+    <!-- Inhalt der Seite -->
     <main>
-      <Home />
-      <About />
-      <Projects />
-      <Contact />
+      <section id="home">
+        <Home />
+      </section>
+      <section id="about">
+        <About />
+      </section>
+      <section id="projects">
+        <Projects />
+      </section>
+      <section id="contact">
+        <Contact />
+      </section>
     </main>
+
+    <!-- Footer -->
     <Footer />
   </div>
 </template>

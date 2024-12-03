@@ -50,8 +50,8 @@
 import { ref, computed } from 'vue'
 
 const projects = [
-  { id: 1, title: 'Lernified', description: 'A full-featured online store with real-time inventory management', category: 'Web Development', image: 'https://picsum.photos/200/300', link: 'https://github.com/tomhandschuch/ecommerce', technologies: ['Vue.js', 'Nuxt.js', 'Stripe'] },
-  { id: 3, title: 'Portfolio Website', description: 'A sleek and modern portfolio website template with dark mode support', category: 'UI/UX Design', image: 'https://picsum.photos/200/300', link: 'https://github.com/tomhandschuch/portfolio', technologies: ['Vue.js', 'Tailwind CSS', 'GSAP'] },
+  { id: 1, title: 'Lernified', description: 'A modern web app designed to simplify learning. It allows users to create, manage, and track custom quizzes while providing instant feedback to boost knowledge retention.', category: 'Web Development', image: 'https://picsum.photos/200/300', link: 'https://learnified.netlify.app', technologies: ['Vue.js', 'Pinia', 'Node.js'] },
+  { id: 2, title: 'Portfolio Website', description: 'A collection of my work as a Frontend Developer, featuring creative and user-friendly web applications built with modern technologies.', category: 'UI/UX Design', image: 'https://picsum.photos/200/300', link: 'https://github.com/tomhandschuch/portfolio', technologies: ['Vue.js', 'Tailwind CSS', 'GSAP'] },
 ]
 
 const categories = ['All', 'Web Development', 'UI/UX Design']
@@ -69,7 +69,7 @@ const filteredProjects = computed(() => {
 <style scoped>
 .project-list-enter-active,
 .project-list-leave-active {
-  transition: all 0.5s ease;
+  transition: all 0.2s ease;
 }
 .project-list-leave-active {
   position: absolute;
