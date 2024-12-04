@@ -23,13 +23,13 @@
         <h1 class="text-4xl md:text-6xl font-bold text-gray-100 mb-4">Tom Handschuch</h1>
         <p class="text-xl md:text-2xl text-cyan-400">
           <vue3-typer
-            :text='["Frontend Developer", "Vue.js Enthusiast", "UI/UX Designer"]'
+            :text='["Frontend Developer", "Vue.js Enthusiast", "Web Developer"]'
             :repeat='Infinity'
             :shuffle='false'
             initial-action='typing'
             :pre-type-delay='70'
             :type-delay='70'
-            :pre-erase-delay='2000'
+            :pre-erase-delay='1000'
             :erase-delay='250'
             erase-style='select-all'
             :erase-on-complete='false'
@@ -65,7 +65,6 @@
   }
   
   onMounted(() => {
-    // Simulating loading a code snippet
     setTimeout(() => {
       codeSnippet.value = `
   import { ref, computed } from 'vue'

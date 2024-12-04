@@ -30,7 +30,6 @@
 <script setup>
 import { Github, Twitter, Linkedin } from 'lucide-vue-next'
 
-// Navigation Items (Updated for Anchor Links)
 const navItems = [
   { name: 'Home', path: '#home' },
   { name: 'About', path: '#about' },
@@ -38,7 +37,6 @@ const navItems = [
   { name: 'Contact', path: '#contact' },
 ]
 
-// Social Links
 const socialLinks = [
   { name: 'GitHub', url: 'https://github.com/tomhandschuch', icon: Github },
   { name: 'LinkedIn', url: 'https://www.linkedin.com/in/tom-handschuch-75b3b3331/', icon: Linkedin },

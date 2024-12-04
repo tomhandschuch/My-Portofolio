@@ -53,7 +53,7 @@
 <script setup>
 import { ref } from 'vue'
 
-const showDetails = ref(true) // Standardmäßig ausgeklappt
+const showDetails = ref(true)
 const toggleDetails = () => {
   showDetails.value = !showDetails.value
 }
