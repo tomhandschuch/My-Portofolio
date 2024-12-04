@@ -1,9 +1,6 @@
 <template>
   <div class="min-h-screen bg-gray-100">
-    <!-- Header mit Navigation -->
     <Header />
-    
-    <!-- Inhalt der Seite -->
     <main>
       <section id="home">
         <Home />
@@ -18,8 +15,6 @@
         <Contact />
       </section>
     </main>
-
-    <!-- Footer -->
     <Footer />
   </div>
 </template>

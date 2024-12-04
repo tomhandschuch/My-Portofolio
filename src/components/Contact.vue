@@ -60,8 +60,6 @@
   
   const handleSubmit = () => {
     console.log('Form submitted:', formData.value)
-    // Here you would typically send the form data to a server
-    // Reset form after submission
     formData.value = { name: '', email: '', message: '' }
   }
   </script>

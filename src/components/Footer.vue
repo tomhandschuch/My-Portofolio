@@ -21,6 +21,6 @@
   
   const links = [
     { name: 'GitHub', url: 'https://github.com/tomhandschuch' },
-    { name: 'LinkedIn', url: 'https://linkedin.com/in/tomhandschuch' },
+    { name: 'LinkedIn', url: 'https://www.linkedin.com/in/tom-handschuch-75b3b3331/' },
   ]
   </script>
