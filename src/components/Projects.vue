@@ -45,7 +45,7 @@ const projects = ref([
     title: 'Lernified',
     description:
       'A modern web app designed to simplify learning. It allows users to create, manage, and track custom quizzes while providing instant feedback to boost knowledge retention.',
-    image: 'https://picsum.photos/200/300',
+    image: new URL('../assets/Logo_Learnified.png', import.meta.url).href,
     link: 'https://learnified.netlify.app',
     technologies: ['Vue.js', 'Pinia', 'Node.js'],
   },
@@ -54,15 +54,15 @@ const projects = ref([
     title: 'Portfolio Website',
     description:
       'A collection of my work as a Frontend Developer, featuring creative and user-friendly web applications built with modern technologies.',
-    image: 'https://picsum.photos/200/300',
+    image: new URL('../assets/SmileyFace.png', import.meta.url).href,
     link: 'https://portfolio-of-tom.netlify.app/',
     technologies: ['Vue.js', 'Tailwind CSS', 'GSAP'],
   },
   {
     id: 3,
-    title: 'other Project',
+    title: 'Todo App',
     description:
-      'A modern web app designed to simplify learning. It allows users to create, manage, and track custom quizzes while providing instant feedback to boost knowledge retention.',
+      'My Todo App is a simple and efficient task manager for organizing and tracking tasks.',
     image: 'https://picsum.photos/200/300',
     link: 'https://learnified.netlify.app',
     technologies: ['Vue.js', 'Pinia', 'Node.js'],

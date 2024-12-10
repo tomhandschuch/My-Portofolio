@@ -59,7 +59,7 @@ const toggleDetails = () => {
 }
 
 const skills = [
-  'Vue.js',
+  'Vue.js / Vite',
   'JavaScript (ES6+)',
   'TypeScript',
   'HTML5 & CSS3',
@@ -67,6 +67,7 @@ const skills = [
   'Git & GitHub',
   'Responsive Web Design',
   'RESTful APIs',
+  'Node.js & NPM'
 ]
 
 const interests = [
