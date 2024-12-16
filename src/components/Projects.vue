@@ -60,12 +60,12 @@ const projects = ref([
   },
   {
     id: 3,
-    title: 'Todo App',
+    title: 'Taskify',
     description:
-      'My Todo App is a simple and efficient task manager for organizing and tracking tasks.',
+      'A sleek and intuitive app designed for effortless task management. Create, edit, and organize tasks with ease, helping you stay productive wherever you are.',
     image: new URL('../assets/Taskify.png', import.meta.url).href,
     link: 'https://check-your-todos.netlify.app',
-    technologies: ['Vue.js', 'Pinia', 'Node.js'],
+    technologies: ['Vue.js', 'TailwindCSS', 'Node.js'],
   },
 ])
 </script>
