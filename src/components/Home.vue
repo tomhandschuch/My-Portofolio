@@ -38,9 +38,9 @@
       </p>
     </div>
     <div class="absolute inset-0 flex items-center justify-center opacity-5">
-      <pre class="text-cyan-400 text-xs md:text-sm overflow-hidden" style="max-height: 80vh;">
-        <code>{{ codeSnippet }}</code>
-      </pre>
+      <pre class="text-cyan-400 text-lg md:text-xl overflow-hidden" style="max-height: 60vh;">
+  <code>{{ codeSnippet }}</code>
+</pre>
     </div>
   </section>
 </template>
