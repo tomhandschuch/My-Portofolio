@@ -63,7 +63,7 @@ const projects = ref([
     title: 'Todo App',
     description:
       'My Todo App is a simple and efficient task manager for organizing and tracking tasks.',
-    image: 'https://picsum.photos/200/300',
+    image: new URL('../assets/Taskify.png', import.meta.url).href,
     link: 'https://check-your-todos.netlify.app',
     technologies: ['Vue.js', 'Pinia', 'Node.js'],
   },
