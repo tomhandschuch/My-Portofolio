@@ -17,7 +17,7 @@
           <transition name="slide-fade">
             <div v-if="showDetails" class="bg-gray-700 mt-2 p-4 rounded-lg">
               <p class="text-gray-300 mb-4">
-                Hi, I'm Tom Handschuch, a junior frontend developer from Thuringia. I specialize in Vue.js, JavaScript, and modern web technologies.
+                Hi, I'm Tom Handschuch, a junior frontend developer from Thuringia. I am specialized in Vue.js, JavaScript, and modern web technologies.
               </p>
               <p class="text-gray-300">
                 I have a passion for creating user-friendly and visually appealing web applications that stand out both technically and aesthetically. Driven by curiosity and enthusiasm, I am committed to developing innovative solutions while continuously enhancing my skills.
